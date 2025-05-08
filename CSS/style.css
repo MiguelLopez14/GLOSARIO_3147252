@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #f4f4f9, #e6e6fa);
+    color: #333;
+}
+
+header {
+    background-color: #07306d;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+main {
+    display: flex; /* Activa Flexbox */
+    flex-direction: column; /* Alinea los elementos en columna */
+    align-items: center; /* Centra horizontalmente */
+    justify-content: center; /* Centra verticalmente si es necesario */
+    padding: 1rem;
+}
+
+nav {
+    margin-bottom: 1rem;
+    text-align: center;
+    padding: 0.5rem;
+    border-radius: 5px;
+
+}
+nav a {
+    margin: 0 20px;
+    text-decoration: none; /* Elimina la subrayado */
+    color: #07306d;
+    font-weight: bold;
+    transition: color 0.3s ease, transform 0.3s ease; /* Transición suave */
+}
+
+nav a:hover {
+    color: #007BFF; /* Cambia el color al pasar el mouse */
+    transform: scale(1.1); /* Efecto de escala */
+}
+
+nav a:focus {
+    outline: none; /* Elimina el contorno al seleccionarlo */
+    text-decoration: none; /* Asegura que no aparezca subrayado */
+}
+
+/* Estilo para las secciones con letra grande */
+section {
+    display: flex; /* Usamos Flexbox para alinear los elementos */
+    align-items: center; 
+    margin-bottom: 2rem;
+    padding: 2rem;
+    background: linear-gradient(to right, #ffffff, #f0f8ff);
+    border-left: 5px solid #07306d;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 55%;
+}
+
+/* Estilo para la letra grande */
+.letra-grande {
+    font-size: 14rem; /* Tamaño grande para la letra */
+    font-weight: bold;
+    color: #07306d;
+    margin-right: 1rem; /* Espacio entre la letra y el contenido */
+    line-height: 1; /* Asegura que la letra esté centrada verticalmente */
+    margin-left: 5rem;
+}
+
+/* Estilo para el contenido */
+.contenido {
+    flex: 1; /* Ocupa el resto del espacio disponible */
+    margin-left: 8rem;
+}
+
+section h2 {
+    color: #07306d;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    border-bottom: 2px solid #07306d;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+footer {
+    text-align: center;
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: #324193;
+    color: #fff;
+    font-size: 0.9rem;
+    border-top: 3px solid #007BFF;
+}
+
+.boton a {
+    display: inline-block;
+    background-color: #007BFF;
+    color: #fff;
+    font-size: 1.5rem;
+    text-decoration: none;
+    text-align: center;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.boton a:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+.boton i {
+    font-size: 2rem;
+    color: #fff;
+    margin-left: 0.5rem;
+}
+
+.boton {
+    text-align: center;
+    margin-top: 2rem;
+    padding: 1rem;
+    color: #fff;
+}
